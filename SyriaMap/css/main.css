@@ -1,0 +1,49 @@
+﻿body {
+    background-color:AppWorkspace;
+}
+
+@font-face {
+    font-family: 'Vedo-Thin';
+    src: url('../webfonts/257DD0_0_0.eot');
+    src: url('../webfonts/257DD0_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/257DD0_0_0.woff') format('woff'),url('../webfonts/257DD0_0_0.ttf') format('truetype');
+
+}
+ 
+
+#container {
+    float: left;
+}
+
+.box {
+    width: 350px;
+    height: 100px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px Gray;
+    border: 1px solid Gray;
+    float: left;
+    margin-top: 200px;
+    padding: 2px;
+
+}
+
+.title {
+    background-color: ActiveCaption;
+    border-radius: 10px 10px 0 0;
+    font-family: Vedo-Thin;
+    font-size: 40px;
+    padding-left: 20px;
+    color: white;
+}
+
+.detail {
+    background-color:white;
+    border-radius: 0 0 10px 10px ;
+    font-family: Arial;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: darkgray;
+    height: 40px;
+}
